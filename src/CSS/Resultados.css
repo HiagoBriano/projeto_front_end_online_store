@@ -1,0 +1,14 @@
+.cardResultados {
+  width: 300px;
+  /* height: 400px; */
+  margin: 10px 10px 10px 10px;
+}
+
+.cardResultados:hover {
+  box-shadow: 2px 2px 10px 8px rgba(30, 30, 60, 0.3);
+}
+
+.lado {
+  display: flex;
+  flex-wrap: wrap;
+}
