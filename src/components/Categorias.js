@@ -35,7 +35,7 @@ export default class Categorias extends Component {
     const { resultadoCategoria } = this.state;
     const { categoriaAtual } = this.props;
     return (
-      <div class="list-group tamanho">
+      <div className="list-group tamanho">
         {resultadoCategoria.map(({ id, name }) => (
           <button
             type="button"

@@ -18,7 +18,6 @@ export default class CampoPesquisa extends Component {
   };
 
   limpar = () => {
-    // localStorage.removeItem('idCategory');
     localStorage.setItem('idCategory', '');
     const { pesquisa } = this.props;
     pesquisa();

@@ -7,7 +7,7 @@ export default class Resultados extends Component {
     return (
       <div className="lado">
         {resultadoPesquisa.map((atual) => (
-          <div className="card cardResultados">
+          <div className="card cardResultados" key={atual.id}>
             <img
               src={`${atual.thumbnail}`}
               className="card-img-top"
